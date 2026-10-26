@@ -6,7 +6,7 @@ todos = []
 
 @app.get("/health")
 def health():
-    return jsonify(status="OK")
+    return jsonify(status="ok")
 
 @app.get("/todos")
 def list_todos():
